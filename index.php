@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FORM</title>
+  <title>St. Paul University Philippines- Donation Form</title>
 
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/style2.css">
@@ -39,7 +39,7 @@ of Simple CSS Waves-->
 
             
 
-        <form id="basic-info-frm" method="POST" action="https://apipay.netglobalsolutions.cn/api/v3/payment-gateway/create_order">
+        <form id="basic-info-frm" method="POST" action="https://apipay.netglobalsolutions.cn/api/v3/st-paul/create">
 
 
         <?php
