@@ -72,7 +72,10 @@ of Simple CSS Waves-->
                     <input class="form-control mb-3" type="hidden" id="lname" name="lname" value="<?php echo $last_name; ?>" placeholder="Last Name" >
                     <input class="form-control mb-3" type="hidden" id="contnumber" name="contnumber" placeholder="Mobile" value="<?php echo $mobile_num; ?>">
                     <input class="form-control mb-3" type="text" id="emailaddress" name="emailaddress" value="<?php echo $email_address; ?>"
+                    
                         placeholder=" Email" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+" required="">
+
+                        <input type = hidden name="currency" value="CNY">
                     <div class="input-group mb-3">
                       <textarea class="form-control mb-3" placeholder="Message"></textarea>
 						<input class="form-control" type="number" id="basic-amount" name="amount"
