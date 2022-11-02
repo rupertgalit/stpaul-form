@@ -75,7 +75,7 @@ of Simple CSS Waves-->
                     
                         placeholder=" Email" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+" required="">
 
-                        <input type = hidden name="currency" value="CNY">
+                        <input type = hidden name="currency" value="USD">
                     <div class="input-group mb-3">
                       <textarea class="form-control mb-3" placeholder="Message"></textarea>
 						<input class="form-control" type="number" id="basic-amount" name="amount"
