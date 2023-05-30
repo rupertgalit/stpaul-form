@@ -1,0 +1,138 @@
+  
+  
+.modal
+    {
+
+        /* background-image:url("image/bg3.png"); */
+        /* background: linear-gradient(60deg, rgb(29, 206, 129) 0%, rgb(49, 69, 71) 100%);
+        
+        background-attachment:fixed;
+        background-repeat:no-repeat;
+        background-size: cover;
+        opacity:0.1; */
+
+        background: linear-gradient(-45deg, #caee52, #64e73c, #23d576, #bdd523);
+	    background-size: 400% 400%;
+	    animation: gradient 5s ease infinite;
+	    height: 100vh;
+        
+    }
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+  
+  
+.modal-content
+    {
+        background: #E0EAFC;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        margin-top: 100px;
+        border-radius: 20px;
+    
+
+    }
+    
+h4
+    {
+        color:rgb(0, 0, 0);
+        
+    }
+.modal-title{
+        margin-top: -15px;
+        font-size: 200%;
+}
+
+.btn-default{
+
+        font-size: 110%;
+}   
+    
+.form-control
+    {
+        background: #F7F8F8;  /* fallback for old browsers */
+
+
+    }
+
+.btn{
+
+    background: #DCE35B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+.cur{
+
+    color: white !important;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    
+    
+    .form-group{
+        font-size: 13px;
+    }
+
+    .modal
+    {
+
+        /* background-image:url("image/bg3.png"); */
+        /* background: linear-gradient(60deg, rgb(29, 206, 129) 0%, rgb(49, 69, 71) 100%);
+        
+        background-attachment:fixed;
+        background-repeat:no-repeat;
+        background-size: cover;
+        opacity:0.1; */
+
+        background: linear-gradient(-55deg, #caee52, #64e73c, #23d576, #bdd523);
+	    background-size: 150% 150%;
+	    animation: gradient 3s ease infinite;
+	    height: 100vh;
+        
+    }
+    @keyframes gradient {
+        0% {
+            background-position: 0% 10%;
+        }
+        50% {
+            background-position: 50% 40%;
+        }
+        100% {
+            background-position: 0% 10%;
+        }
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+
+    .modal-header{
+        font-size: 10px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    .top-logo{
+        width: 60%;
+        height: 60%;
+    }
+    .modal-title{
+        margin-top: -22px;
+        font-size: 200%;
+}
+}
